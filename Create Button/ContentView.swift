@@ -10,21 +10,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Button(action: {
-            print("Shut Down Tap!")
-        }) {
-            HStack {
-                Image(systemName: "power")
-                    .font(.title)
-                Text("Shut Down")
-                    .fontWeight(.semibold)
-                    .font(.title)
-            }
-            .padding()
+        
+        HStack(spacing: 0) {
+            Button(action: {
+                //
+            }){
+               Text("Cancel")
+                .padding(18)
+                .font(.system(size: 18))
+            }.frame(minWidth:0, maxWidth: .infinity)
+            .foregroundColor(.black)
+            .background(RoundedCorner(color: Color(red: 223/255, green: 223/255, blue: 223/255), tl: 12, tr: 0, bl: 0, br: 0))
+            
+            Button(action: {
+                //
+            }){
+               Text("Verified")
+                .padding(18)
+                .font(.system(size: 18))
+            }.frame(minWidth:0, maxWidth: .infinity)
             .foregroundColor(.white)
-            .background(Color.red)
-            .cornerRadius(10)
-        }
+            .background(RoundedCorner(color: Color(red: 29/255, green: 169/255, blue: 75/255), tl: 0, tr: 0, bl: 0, br: 12))
+           
+        }.padding()
         
     }
 }

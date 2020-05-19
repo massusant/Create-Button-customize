@@ -11,15 +11,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Button(action: {
-            // func here
-        } ){
-            Text("Button")
+            print("Shut Down Tap!")
+        }) {
+            HStack {
+                Image(systemName: "power")
+                    .font(.title)
+                Text("Shut Down")
+                    .fontWeight(.semibold)
+                    .font(.title)
+            }
             .padding()
-            .background(Color.green)
             .foregroundColor(.white)
-            .font(.title)
-            .border(Color.black, width: 5)
-            
+            .background(Color.red)
+            .cornerRadius(10)
         }
         
     }

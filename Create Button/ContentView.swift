@@ -19,6 +19,7 @@ struct ContentView: View {
             .foregroundColor(.white)
             .font(.title)
             .border(Color.black, width: 5)
+            
         }
         
     }

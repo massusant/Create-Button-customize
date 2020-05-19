@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3768F3182474426C000433F5 /* RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768F3172474426C000433F5 /* RoundCorner.swift */; };
 		37B9B599247436D2007E3E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B9B598247436D2007E3E20 /* AppDelegate.swift */; };
 		37B9B59B247436D2007E3E20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B9B59A247436D2007E3E20 /* SceneDelegate.swift */; };
 		37B9B59D247436D2007E3E20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B9B59C247436D2007E3E20 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3768F3172474426C000433F5 /* RoundCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCorner.swift; sourceTree = "<group>"; };
 		37B9B595247436D2007E3E20 /* Create Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Create Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B9B598247436D2007E3E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37B9B59A247436D2007E3E20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				37B9B5A3247436D4007E3E20 /* LaunchScreen.storyboard */,
 				37B9B5A6247436D4007E3E20 /* Info.plist */,
 				37B9B5A0247436D4007E3E20 /* Preview Content */,
+				3768F3172474426C000433F5 /* RoundCorner.swift */,
 			);
 			path = "Create Button";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37B9B599247436D2007E3E20 /* AppDelegate.swift in Sources */,
+				3768F3182474426C000433F5 /* RoundCorner.swift in Sources */,
 				37B9B59B247436D2007E3E20 /* SceneDelegate.swift in Sources */,
 				37B9B59D247436D2007E3E20 /* ContentView.swift in Sources */,
 			);
